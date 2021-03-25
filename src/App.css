@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +32,50 @@
     transform: rotate(360deg);
   }
 }
+
+.appifySection{
+  margin-top: 48px;
+}
+.appifyForm{
+  max-width: 350px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 10px #ddd;
+  padding: 24px;
+}
+.appifySection .form-group{
+  margin-bottom: 16px;
+  position: relative;
+}
+.appifySection .form-group input{
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: none;
+  outline: none;
+}
+.appifySection .form-group ul{
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+}
+.appifySection .form-group ul li{
+  list-style-type: none;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+.appifySection .form-group ul li:hover{
+  background-color: #f4f4f4;
+}
+.appifySection .form-check{
+  margin-bottom: 16px;
+}
+.appifySection .form-check input{
+  box-shadow: none;
+  outline: none;
+}
+
